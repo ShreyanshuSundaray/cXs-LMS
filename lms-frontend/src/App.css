@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-page{
+  opacity: 0.6;
+  background: rgba(19, 4, 4, 0.5);
+  border-radius: 12px;
+  background-image: url();
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 10px 40px rgb(46, 24, 241);
+
+}
+
+.register-page{
+  opacity: 1;
+  background: rgb(0, 0, 0);
+  border-radius: 18px;
+  background-image: url();
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 10px 40px rgb(105, 111, 140);
+}
+
+.register-lebel{
+  color: #0019f8;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.create-course{
+  opacity: 1;
+  width: 30%;
+  height: 67%;
+  background: rgb(0, 0, 0);
+  border-radius: 18px;
+  background-image: url();
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 10px 40px rgb(105, 111, 140);
+}
