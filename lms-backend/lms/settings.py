@@ -10,7 +10,7 @@ SECRET_KEY = ''')g(l78bmz=!lr8intfuz%35%50n3dt%=-g91*1=uao0ggu1s@o'''
 
 DEBUG = False  # Set to False for production
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     # Remove 'django.contrib.admin' since we're not using it
@@ -130,3 +130,13 @@ LOGGING = {
         },
     },
 }
+
+
+# CORS setup
+
+MIDDLEWARE.insert(0, 'corsheaders.middleware.CorsMiddleware')
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://192.168.29.199:3000",  # frontend IP
+]

@@ -13667,3 +13667,102 @@ INFO 2025-07-03 18:41:16,456 views Ratings retrieved for Course ID 1
 WARNING 2025-07-03 18:41:16,463 log Not Found: /api/courses/enrolled/
 INFO 2025-07-03 18:41:16,472 views Ratings retrieved for Course ID 1
 WARNING 2025-07-03 18:41:16,476 log Not Found: /api/courses/enrolled/
+INFO 2025-07-26 12:20:30,080 autoreload Watching for file changes with StatReloader
+INFO 2025-07-26 12:20:30,085 urls Loading URL patterns for lms project
+INFO 2025-07-26 12:20:34,188 urls Loading URL patterns for courses app
+INFO 2025-07-26 12:20:34,189 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
+INFO 2025-07-26 12:20:34,190 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
+WARNING 2025-07-26 12:21:19,898 auth_utils JWT token expired
+ERROR 2025-07-26 12:21:19,901 auth_utils JWT authentication failed: Token has expired
+WARNING 2025-07-26 12:21:19,911 log Unauthorized: /api/users/profile/
+WARNING 2025-07-26 12:21:19,921 auth_utils JWT token expired
+ERROR 2025-07-26 12:21:19,922 auth_utils JWT authentication failed: Token has expired
+WARNING 2025-07-26 12:21:19,923 log Unauthorized: /api/users/profile/
+WARNING 2025-07-26 12:21:19,960 views Refresh token request failed: Missing refresh token
+WARNING 2025-07-26 12:21:19,964 log Bad Request: /api/users/refresh/
+WARNING 2025-07-26 12:21:19,967 views Refresh token request failed: Missing refresh token
+WARNING 2025-07-26 12:21:19,971 log Bad Request: /api/users/refresh/
+INFO 2025-07-26 12:21:20,289 views Courses retrieved successfully
+INFO 2025-07-26 12:21:20,344 views Courses retrieved successfully
+INFO 2025-07-26 12:34:50,857 autoreload Watching for file changes with StatReloader
+INFO 2025-07-26 12:34:50,861 urls Loading URL patterns for lms project
+INFO 2025-07-26 12:34:51,078 urls Loading URL patterns for courses app
+INFO 2025-07-26 12:34:51,079 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
+INFO 2025-07-26 12:34:51,080 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
+INFO 2025-07-26 12:38:52,667 autoreload Watching for file changes with StatReloader
+INFO 2025-07-26 12:38:52,672 urls Loading URL patterns for lms project
+INFO 2025-07-26 12:38:52,833 urls Loading URL patterns for courses app
+INFO 2025-07-26 12:38:52,834 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
+INFO 2025-07-26 12:38:52,835 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
+ERROR 2025-07-26 12:51:48,810 log Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+ERROR 2025-07-26 12:55:56,519 log Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+ERROR 2025-07-26 12:55:56,531 log Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+INFO 2025-07-26 12:59:52,868 autoreload Watching for file changes with StatReloader
+INFO 2025-07-26 12:59:52,981 urls Loading URL patterns for lms project
+INFO 2025-07-26 12:59:53,199 urls Loading URL patterns for courses app
+INFO 2025-07-26 12:59:53,201 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
+INFO 2025-07-26 12:59:53,202 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
+INFO 2025-07-26 13:01:02,957 autoreload C:\LMS-project\lms-backend\lms\settings.py changed, reloading.
+INFO 2025-07-26 13:01:03,979 autoreload Watching for file changes with StatReloader
+INFO 2025-07-26 13:01:03,983 urls Loading URL patterns for lms project
+INFO 2025-07-26 13:01:04,319 urls Loading URL patterns for courses app
+INFO 2025-07-26 13:01:04,321 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
+INFO 2025-07-26 13:01:04,322 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
+ERROR 2025-07-26 13:01:38,645 log Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+ERROR 2025-07-26 13:01:38,662 log Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\LMS-project\lms-backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.29.199:8000'. You may need to add '192.168.29.199' to ALLOWED_HOSTS.
+INFO 2025-07-26 13:04:22,618 autoreload C:\LMS-project\lms-backend\lms\settings.py changed, reloading.
+INFO 2025-07-26 13:04:38,674 autoreload Watching for file changes with StatReloader
+INFO 2025-07-26 13:04:38,678 urls Loading URL patterns for lms project
+INFO 2025-07-26 13:04:38,842 urls Loading URL patterns for courses app
+INFO 2025-07-26 13:04:38,844 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
+INFO 2025-07-26 13:04:38,844 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
