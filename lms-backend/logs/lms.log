@@ -13766,3 +13766,5 @@ INFO 2025-07-26 13:04:38,678 urls Loading URL patterns for lms project
 INFO 2025-07-26 13:04:38,842 urls Loading URL patterns for courses app
 INFO 2025-07-26 13:04:38,844 urls URL patterns loaded in courses/urls.py: ["<URLPattern 'create/' [name='course-create']>", "<URLPattern '' [name='course-list']>", "<URLPattern '<int:pk>/' [name='course-detail']>", "<URLPattern 'enroll/<int:course_id>/' [name='enroll']>", "<URLPattern 'enrolled-courses/' [name='enrolled-courses']>", "<URLPattern 'rate/<int:course_id>/' [name='rate-course']>", "<URLPattern 'ratings/<int:course_id>/' [name='course-ratings']>", "<URLPattern 'created-courses/' [name='created-courses']>"]
 INFO 2025-07-26 13:04:38,844 urls URL patterns loaded in lms/urls.py: ["<URLPattern '' [name='home']>", "<URLResolver <module 'users.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\users\\\\urls.py'> (None:None) 'api/users/'>", "<URLResolver <module 'courses.urls' from 'C:\\\\LMS-project\\\\lms-backend\\\\courses\\\\urls.py'> (None:None) 'api/courses/'>"]
+INFO 2025-07-26 13:04:50,123 views Courses retrieved successfully
+INFO 2025-07-26 13:04:50,181 views Courses retrieved successfully
